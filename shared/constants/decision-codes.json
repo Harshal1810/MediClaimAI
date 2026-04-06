@@ -1,0 +1,22 @@
+{
+  "APPROVED": "Claim approved",
+  "PARTIAL": "Claim partially approved",
+  "REJECTED": "Claim rejected",
+  "MANUAL_REVIEW": "Claim sent for manual review",
+  "MISSING_DOCUMENTS": "Required documents are missing",
+  "POLICY_INACTIVE": "Policy not active on treatment date",
+  "WAITING_PERIOD": "Applicable waiting period not completed",
+  "PER_CLAIM_EXCEEDED": "Per claim limit exceeded",
+  "PRE_AUTH_MISSING": "Pre-authorization missing",
+  "SERVICE_NOT_COVERED": "Service not covered under policy",
+  "LATE_SUBMISSION": "Claim submitted after allowed window",
+  "BELOW_MIN_AMOUNT": "Claim amount below minimum threshold",
+  "NOT_MEDICALLY_NECESSARY": "Treatment not medically necessary",
+  "DUPLICATE_CLAIM": "Duplicate claim detected"
+  ,
+  "ILLEGIBLE_DOCUMENTS": "Documents are not readable",
+  "INVALID_PRESCRIPTION": "Prescription is missing required medical fields",
+  "DOCTOR_REG_INVALID": "Doctor registration number invalid/missing",
+  "PATIENT_MISMATCH": "Patient details do not match policy records",
+  "DATE_MISMATCH": "Document dates do not match"
+}

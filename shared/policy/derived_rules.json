@@ -1,0 +1,33 @@
+{
+  "special_rules": {
+    "mri": {
+      "pre_auth_required": true,
+      "threshold_amount": 10000
+    },
+    "ct_scan": {
+      "pre_auth_required": true,
+      "threshold_amount": 10000
+    }
+  },
+  "waiting_period_precedence": [
+    "specific_ailment",
+    "pre_existing_disease",
+    "initial_waiting"
+  ],
+  "per_claim_limit_applies_to": [
+    "consultation_fees",
+    "pharmacy"
+  ],
+  "network_cashless": {
+    "apply_network_discount": true,
+    "waive_copay": false
+  },
+  "hard_rejections": [
+    "MISSING_DOCUMENTS",
+    "WAITING_PERIOD",
+    "PRE_AUTH_MISSING",
+    "SERVICE_NOT_COVERED",
+    "LATE_SUBMISSION",
+    "BELOW_MIN_AMOUNT"
+  ]
+}

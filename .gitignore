@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+.env.local
+
+# Uploads
+backend/uploads/
+backend/logs/
+backend/*.db
+backend/logs/claims/
+backend/logs/claims/**
+
+# Local virtualenvs
+plum/
+myenv/
+tmp/
+
+# OS
+.DS_Store

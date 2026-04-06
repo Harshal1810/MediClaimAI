@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+sqlalchemy
+langchain
+langchain-openai
+openai
+pillow
+pytesseract
+pypdfium2
+rapidfuzz
+python-dotenv
+httpx
+pytest
